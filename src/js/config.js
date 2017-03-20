@@ -11,7 +11,9 @@
     $stateProvider
       .state('home', {
         url: '/',
-        templateUrl: 'js/components/main/main.view.html'
+        templateUrl: 'js/components/main/main.view.html',
+        controller: 'mainController',
+        controllerAs: 'mainCtrl'
       });
   }
 

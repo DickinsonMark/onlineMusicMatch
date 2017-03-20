@@ -8,7 +8,9 @@
     .module('myApp', [
       'myApp.config',
       'myApp.components.main',
-      'ui.router'
+      'myApp.components.game',
+      'ui.router',
+      'LocalStorageModule'
     ]);
 
 })();
